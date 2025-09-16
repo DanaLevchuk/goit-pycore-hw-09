@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit-pycore-hw-09"
+version = "0.1.0"
+description = "Personal Assistant project with Poetry"
+authors = ["Your Name <your@email.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "assistant_bot" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
